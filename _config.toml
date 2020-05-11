@@ -1,0 +1,81 @@
+baseURL = "https://goncharik.com/"
+title = "Eugene Goncharenko"
+theme = "coder-portfolio" # Set the theme.
+languageCode = "en-us"
+defaultContentLanguage = "en" # The default content language.
+
+paginate = 20 # Default number of pages per page in pagination.
+
+pygmentsStyle = "b2" # Color-theme or style for syntax highlighting.
+pygmentsCodeFences = true # Enable code fence background highlighting.
+pygmentsCodeFencesGuessSyntax = true # Enable syntax guessing for code fences without specified language.
+pygmentsUseClasses = true # new add
+
+[params] # theme parameters
+    author = "Eugene Goncharenko" # Author's name.
+    info = "iOS Lead Engineer" # Author's job title or info.
+    description = "Eugene Goncharenko's personal website" # Site description.
+    keywords = "blog,developer,personal" # Site keywords.
+    avatarurl = "images/avatar.png" # Contain the path of the optionnal avatar in the static folder.
+
+    # footercontent = "Enter a text here." # Add footer content
+    # fixedbarContent = "Do you want to know me more private?→" # Add fixedbar content
+    # fixedbarContentAfter = "Thank You! Please share it if you like it→" # Add fixedbar content after click
+
+    # Whether you want to hide copyright and credits in the footer.
+    hideCredits = true
+    hideCopyright = false
+
+    # Custom CSS
+    custom_css = []
+
+    # Alignment of Mobile Menu items
+    itemscentered = true
+
+    # RTL support
+    rtl = false
+
+    # Bottom sns share
+    snsShare = true # new add
+    # Popular sns share
+    # if you want add sns. please message!
+    enableTwitterShare = true  # new add
+    enableFacebookShare = true # new add
+    enableLinkedInShare = true # new add
+
+    thumbnail = "images/tn.png" # default sns thumbnail
+
+    # Multilanguage mode
+    langseparator = "|" # Separates menus from language selectors when site is multilingual.
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 1
+    url = "https://github.com/goncharik/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter"
+    weight = 2
+    url = "https://twitter.com/goncharenko_eu/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 3
+    url = "https://www.linkedin.com/in/eugenegoncharenko/"
+[[params.social]]
+    name = "Facebook"
+    icon = "fab fa-facebook"
+    weight = 4
+    url = "https://www.facebook.com/goncharenko.eugene"
+
+# Menu links
+# [[menu.main]]
+#     name = "Blog"
+#     weight = 1
+#     url  = "posts"
+# [[menu.main]]
+#     name = "About"
+#     weight = 2
+#     url = "about"

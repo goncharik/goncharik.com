@@ -1,0 +1,14 @@
+machine:
+  timezone: Europe/Kiev
+
+dependencies:
+  pre:
+    - go get -v github.com/spf13/hugo
+    - git config --global user.name "CircleCI"
+    - git config --global user.email "circleci@example.com"
+
+deployment:
+  production:
+    branch: source
+    commands:
+      - ./scripts/deploy.sh

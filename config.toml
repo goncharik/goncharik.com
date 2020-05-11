@@ -1,0 +1,35 @@
+baseURL = "https://goncharik.com/"
+# include content marked as draft
+buildDrafts = false
+# include content with publishdate in the future
+buildFuture = false
+# include content already expired
+buildExpired = false
+# enable this to make all relative URLs relative to content root. Note that this does not affect absolute URLs.
+relativeURLs = true
+disableRSS = true
+enableRobotsTXT = true
+editor = "nano"
+languageCode = "en"
+language = "en"
+theme = "vncnt-hugo"
+title = "Eugene Goncharenk · iOS Lead Engineer"
+
+[permalinks]
+  fixed = ":title/"
+  posts = "posts/:slug/"
+
+[params]
+  author = "Eugene Goncharenko"
+  email = "eugene@goncharik.com"
+  description = "Eugene Goncharenko's personal website"
+  bio = "iOS Lead Engineer  \nIf you need a code review or any consultation for your mobile app, please contact me →"
+  avatar = "img/avatar.png"
+  favicon = "img/favicon.ico"
+  error404 = "There is no such page."
+
+  [params.contact]
+    github = "https://github.com/jdoe"
+    twitter = "https://twitter.com/jdoe"
+    linkedin = "https://www.linkedin.com/in/eugenegoncharenko/"
+    facebook = "https://www.facebook.com/goncharenko.eugene"
